@@ -50,7 +50,7 @@ function condicionesIniciales() {
 function reiniciarJuego() {
     //limpiar caja
     limpiarCaja();
-    //Indicar mensaje de intervalo de números 
+    //Indicar mensaje de intervalo de numeros
     //Generar el número aleatorio
     //Inicializar el número intentos
     condicionesIniciales();

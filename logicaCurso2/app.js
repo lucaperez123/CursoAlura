@@ -1,5 +1,6 @@
 let numeroSecreto = generarNumeroSecreto();
-let intentos = 0;
+let intentos = 1;
+console.log(numeroSecreto);
 
 
 function asignarTextoElemento(elemento, texto) {
@@ -11,9 +12,10 @@ function asignarTextoElemento(elemento, texto) {
 function verificarIntento() {
     let numeroDeUsuario = parseInt(document.getElementById('valorUsuario').value);
     
+
     if (numeroDeUsuario === numeroSecreto) {
         asignarTextoElemento('p',`Acertaste el número en ${intentos} ${(intentos === 1) ? 'vez' : 'veces'}`);
-        document.getElementById('reiniciar').removeAttribute('disabled');
+        document.getElementById('reiniciar').removeAttribute('disabled'); // activar el nuevo boton para nuevo juego(remueve el atributo y lo habilita)
     } else {
         //El usuario no acertó.
         if (numeroDeUsuario > numeroSecreto) {
@@ -27,13 +29,14 @@ function verificarIntento() {
     return;
 }
 
+//esta funcion se utiliza para limpiar la caja de texto cuando el usuario no acierta el número secreto
 function limpiarCaja() {
     document.querySelector('#valorUsuario').value = '';
 }
 
+
 function generarNumeroSecreto() {
     return Math.floor(Math.random()*10)+1;
-
 }
 
 function condicionesIniciales() {

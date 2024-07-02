@@ -1,8 +1,15 @@
+
 body{
     background-color: #000000;
     color: #f6f6f6;
+    height: 100vh;
 }
 
-strong {
+.titulo-nombre{
     color:#22D4FD;
+}
+
+.Presentacion {
+    display: flex;
+    align-items: center;
 }

@@ -30,7 +30,6 @@ body{
     display: flex;
     gap: 32px;
     align-items: center;
-
 }
 
 .header_menu_link{
@@ -46,12 +45,13 @@ body{
 .Presentacion {
     padding: 6% 15%;
     display: flex;
-    align-items: center;
+    align-items:center;
     justify-content:space-between;
+    gap: 50px;
 }
 
 .presentacion_contenido{
-    width: 615px;
+    width: 50%;
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -86,7 +86,7 @@ body{
 }
 
 .presentacion__enlaces__link{
-    width: 378px;
+    width: 50%;
     text-align: center;
     padding: 21.5px 0;
     border-radius: 8px;
@@ -103,6 +103,10 @@ body{
 
 .presentacion__enlaces__link:hover {
     background-color: var(--color-hover)
+}
+
+.presentacion__imagen{
+    width: 60%;
 }
 
 .footer{

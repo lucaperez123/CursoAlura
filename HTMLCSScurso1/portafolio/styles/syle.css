@@ -28,9 +28,10 @@ body{
 
 .header_menu{
     display: flex;
-    gap: 32px;
-    align-items: center;
+    gap: 80px;
 }
+
+
 
 .header_menu_link{
     font-family: var(--fuente-primaria);
@@ -106,7 +107,7 @@ body{
 }
 
 .presentacion__imagen{
-    width: 60%;
+    width: 50%;
 }
 
 .footer{
@@ -116,4 +117,21 @@ body{
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: 400px;
+}
+
+@media (max-width :1200px){
+
+    .header{
+        padding: 10%;
+    }
+
+    .header_menu{
+        justify-content: center;
+    }
+
+    .presentacion{
+        flex-direction: column-reverse;
+    }
+
+
 }

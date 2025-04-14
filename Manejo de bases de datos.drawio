@@ -4,8 +4,11 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="u-q5HwcDcBuS_lFMa_bF-1" value="Cliente" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+        <mxCell id="u-q5HwcDcBuS_lFMa_bF-1" value="Cliente" style="whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="-240" y="130" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wxmqhAFOyw_FEQ8nONu9-1" value="Pedido" style="shape=ext;margin=3;double=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="130" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
